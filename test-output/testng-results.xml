@@ -2,47 +2,47 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39601" started-at="2019-06-18T02:11:23Z" finished-at="2019-06-18T02:12:03Z">
+  <suite name="Default suite" duration-ms="23696" started-at="2019-06-20T01:22:10Z" finished-at="2019-06-20T01:22:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39601" started-at="2019-06-18T02:11:23Z" finished-at="2019-06-18T02:12:03Z">
-      <class name="com.TestCases.Tc_01_ValidateSigin">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.TestCases.Tc_01_ValidateSigin@685cb137]" name="beforeSuite" is-config="true" duration-ms="794" started-at="2019-06-18T07:41:22Z" finished-at="2019-06-18T07:41:23Z">
+    <test name="Default test" duration-ms="23696" started-at="2019-06-20T01:22:10Z" finished-at="2019-06-20T01:22:34Z">
+      <class name="com.TestCases.Tc_02_RegisterNewUser">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.TestCases.Tc_02_RegisterNewUser@685cb137]" name="beforeSuite" is-config="true" duration-ms="1264" started-at="2019-06-20T06:52:09Z" finished-at="2019-06-20T06:52:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.TestCases.Tc_01_ValidateSigin@685cb137]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-06-18T07:41:23Z" finished-at="2019-06-18T07:41:23Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.TestCases.Tc_02_RegisterNewUser@685cb137]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-06-20T06:52:10Z" finished-at="2019-06-20T06:52:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.TestCases.Tc_01_ValidateSigin@685cb137]" name="beforeMethod" is-config="true" duration-ms="172" started-at="2019-06-18T07:41:23Z" finished-at="2019-06-18T07:41:23Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.TestCases.Tc_02_RegisterNewUser@685cb137]" name="beforeMethod" is-config="true" duration-ms="131" started-at="2019-06-20T06:52:10Z" finished-at="2019-06-20T06:52:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.TestCases.Tc_01_ValidateSigin.Tc_01_ValidateSigin()]]>
+                <![CDATA[public void com.TestCases.Tc_02_RegisterNewUser.Tc_01_ValidateSigin()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Tc_01_ValidateSigin()[pri:0, instance:com.TestCases.Tc_01_ValidateSigin@685cb137]" name="Tc_01_ValidateSigin" duration-ms="36751" started-at="2019-06-18T07:41:23Z" finished-at="2019-06-18T07:42:00Z">
+        <test-method status="PASS" signature="Tc_01_ValidateSigin()[pri:0, instance:com.TestCases.Tc_02_RegisterNewUser@685cb137]" name="Tc_01_ValidateSigin" duration-ms="20811" started-at="2019-06-20T06:52:10Z" finished-at="2019-06-20T06:52:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tc_01_ValidateSigin -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.TestCases.Tc_01_ValidateSigin@685cb137]" name="afterMethod" is-config="true" duration-ms="2000" started-at="2019-06-18T07:42:00Z" finished-at="2019-06-18T07:42:02Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.TestCases.Tc_02_RegisterNewUser@685cb137]" name="afterMethod" is-config="true" duration-ms="2002" started-at="2019-06-20T06:52:31Z" finished-at="2019-06-20T06:52:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.TestCases.Tc_01_ValidateSigin@685cb137]" name="afterTest" is-config="true" duration-ms="654" started-at="2019-06-18T07:42:02Z" finished-at="2019-06-18T07:42:03Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.TestCases.Tc_02_RegisterNewUser@685cb137]" name="afterTest" is-config="true" duration-ms="715" started-at="2019-06-20T06:52:33Z" finished-at="2019-06-20T06:52:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.TestCases.Tc_01_ValidateSigin@685cb137]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-06-18T07:42:03Z" finished-at="2019-06-18T07:42:03Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.TestCases.Tc_02_RegisterNewUser@685cb137]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-06-20T06:52:34Z" finished-at="2019-06-20T06:52:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.TestCases.Tc_01_ValidateSigin -->
+      </class> <!-- com.TestCases.Tc_02_RegisterNewUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

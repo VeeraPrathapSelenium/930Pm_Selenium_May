@@ -108,7 +108,7 @@ public boolean fill_UserDetails()
 	boolean status=true;
 	try
 	{
-		
+		String firstname=getData("TestData", "FirstName");
 		status=clickAndSendData("Email id","Authentication",edi_emailID_newUser, email);
 		
 		//check the status of email id data entry and click on the register button
